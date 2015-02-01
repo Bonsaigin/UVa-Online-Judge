@@ -1,3 +1,5 @@
+/* Ugly Numbers */
+
 #include <stdio.h>
 #define MAX_NUM 5
 

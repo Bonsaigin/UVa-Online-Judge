@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* GCD */
 void swap(int* x, int* y)
 {
   int t;

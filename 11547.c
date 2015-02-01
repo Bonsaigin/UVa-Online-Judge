@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* Automatic Answer */
 int main(void)
 {
   int num_cases;
