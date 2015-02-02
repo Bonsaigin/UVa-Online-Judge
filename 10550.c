@@ -33,15 +33,10 @@ int main(void)
 
   while (start_pos || comb[0] || comb[1] || comb[2]) {
     int dist = 2 * MAX_NUM;              /* 2 initial rotations   */
-    printf("%d\n", dist);
     dist += dist_cw(start_pos, comb[0]); /* stop at first number  */
-    printf("%d\n", dist);
     dist += MAX_NUM;                     /* 1 ccw turn            */
-    printf("%d\n", dist);
     dist += dist_ccw(comb[0], comb[1]);  /* stop at second number */
-    printf("%d\n", dist);
     dist += dist_cw(comb[1], comb[2]);   /* stop at third number  */
-    printf("%d\n", dist);
 
     int degrees = 9 * dist;
     printf("%d\n", degrees);
